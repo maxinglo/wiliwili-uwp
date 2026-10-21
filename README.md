@@ -34,6 +34,9 @@ UWP 版本由 [ikas-mc](https://github.com/ikas-mc) 开发，移植了 mpv 播�
 
 ### 与上游的关系
 
+Xbox 支持通过系统媒体管线播放 HDR10 和杜比视界（含 Profile 5），并接入系统媒体控制。
+界面按 HDMI 实际像素渲染，默认顶满当前刷新率；原生 HDR 播放时使用兼容的最高 60 Hz 模式。
+
 本项目不直接提交 wiliwili 与 borealis 源码。构建时拉取已固定提交的 UWP/WinRT 适配分支，并通过本仓库的 CMake 配置生成 UWP 包。
 
 <br>
@@ -56,7 +59,7 @@ UWP 版本由 [ikas-mc](https://github.com/ikas-mc) 开发，移植了 mpv 播�
 
 ### 依赖
 
-- Visual Studio 2022 或 2026
+- Visual Studio 2022 或 2026，安装 C++ UWP 工具和 Windows SDK 19041 或更新版本
 - [vcpkg](https://github.com/microsoft/vcpkg)
 - CMake 3.20+
 

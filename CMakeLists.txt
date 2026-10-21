@@ -12,7 +12,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED YES)
 project(wiliwili-uwp)
 
 #https://learn.microsoft.com/zh-cn/cpp/build/reference/execution-charset-set-execution-character-set?view=msvc-170
-add_compile_options(/utf-8)
+add_compile_options(/utf-8 /bigobj $<$<COMPILE_LANGUAGE:CXX>:/MP4>)
 set_property(GLOBAL PROPERTY USE_FOLDERS ON)
 
 include(borealis.cmake)

@@ -1,12 +1,12 @@
 
 $ErrorActionPreference = "Stop"
 $workDir = $PSScriptRoot
-$borealisRepo = "https://github.com/ikas-mc/borealis.git"
-$borealisRef = "winrt-dev"
-$borealisCommit = "789b230cb4e50ff2098ae872a6bfe3f1d835f25b"
-$wiliwiliRepo = "https://github.com/ikas-mc/wiliwili.git"
-$wiliwiliRef = "winrt-dev"
-$wiliwiliCommit = "ff43110e224c822f527f8c3dd0fb96eba9c3c827"
+$borealisRepo = "https://github.com/maxinglo/borealis.git"
+$borealisRef = "xbox"
+$borealisCommit = "bdc2965c9fe265aece243086151ce298fb0301af"
+$wiliwiliRepo = "https://github.com/maxinglo/wiliwilidev.git"
+$wiliwiliRef = "xbox"
+$wiliwiliCommit = "9b3ca668da54f925d64f98e6ffb0ebad13822c4a"
 
 function Ensure-GitCheckout {
     param(
