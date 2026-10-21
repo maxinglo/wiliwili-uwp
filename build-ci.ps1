@@ -5,8 +5,8 @@ $borealisRepo = "https://github.com/maxinglo/borealis.git"
 $borealisRef = "xbox"
 $borealisCommit = "bdc2965c9fe265aece243086151ce298fb0301af"
 $wiliwiliRepo = "https://github.com/maxinglo/wiliwilidev.git"
-$wiliwiliRef = "xbox"
-$wiliwiliCommit = "9b3ca668da54f925d64f98e6ffb0ebad13822c4a"
+$wiliwiliRef = "xbox-tls"
+$wiliwiliCommit = "f519d6b558dff5b1c2ade3a5421ee8c57dab7662"
 
 function Ensure-GitCheckout {
     param(
